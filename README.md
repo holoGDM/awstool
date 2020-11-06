@@ -6,7 +6,7 @@ Inteview simple tool
 
 `make build`
 
-Aplication will be builded in to main repo directory
+Aplication will be builded into main repo directory
 
 # Run Unit tests
 `make test`
