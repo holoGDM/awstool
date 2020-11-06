@@ -13,7 +13,7 @@ import (
 
 // Const variables in which we are setting our arn of our target group and region which we want to use
 const (
-	arnTargetgroup = "arn:aws:elasticloadbalancing:eu-central-1:XXXXXXXXXXX:targetgroup/test/c7a44c37a781fe94"
+	arnTargetgroup = "arn:aws:elasticloadbalancing:eu-central-1:785702789599:targetgroup/test/c7a44c37a781fe94"
 	region         = "eu-central-1"
 )
 

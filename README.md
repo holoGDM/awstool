@@ -6,6 +6,11 @@ Inteview simple tool
 
 `make build`
 
+Aplication will be builded in to main repo directory
+
+# Run Unit tests
+`make test`
+
 # Usage
 
 To use this simple tool first we need to change some variables in cmd/main.go file:
