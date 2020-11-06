@@ -8,6 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/aws/aws-sdk-go/service/elbv2"
+	instance "github.com/holoGDM/awstool/internal/awsec2"
 	targets "github.com/holoGDM/awstool/internal/awselbv2"
 )
 
@@ -16,6 +17,7 @@ type mockTargets struct {
 }
 
 type mockInstance struct {
+	instance.IfInstance
 }
 
 func (p *mockTargets) RegisterTarget(string) (*elbv2.RegisterTargetsOutput, error) {
