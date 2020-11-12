@@ -215,5 +215,8 @@ func TestChangeImagesForInstances(t *testing.T) {
 	trg := &mockTargets{}
 	instance := &mockInstance{}
 
-	ChangeImagesForInstances(sess, trg, instance, &first, &second)
+	err = ChangeImagesForInstances(sess, trg, instance, &first, &second)
+	if err != nil {
+		t.Fatal(err)
+	}
 }
